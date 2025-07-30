@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio web page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/24a4b870d0.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><span>N</span>eha.</div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UX/UI Designer</p>
+                <h1>Hi, i am <span>Neha</span> <br> from India  </h1> 
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a B.Tech student passionate about frontend development and circuit design.
+                       With a background in both software and electronics, I enjoy creating projects 
+                       like weather apps, VLSI circuits, and responsive UIs. I’ve worked with HTML, 
+                       CSS, JavaScript, and React.js, and explored low-power VCO circuits in my final 
+                       year. I love learning by doing, thrive in team settings, and stay curious about 
+                       new tools and technologies.</p>
+
+                         <div class="tab-titles">
+                            
+                            <p class="tab-links active-link"  onclick="opentab('Skills')">Skills </p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                         </div>
+
+                         <div class="tab-content active-tab" id="Skills">
+                            <ul>
+                                <li><span>UI/UX Design</span> <br>Creating user-friendly interfaces for websites and mobile apps</li>
+                                <li><span>Web Development</span> <br>Building responsive websites using HTML, CSS, JavaScript, and React.js</li>
+                                <li><span>Version Control</span> <br>Working with Git & GitHub for source code management</li>
+                                <li><span>Responsive Design</span> <br>Designing layouts that work across all screen sizes</li>
+                                
+                            </ul>
+                         </div>
+
+                         <div class="tab-content" id="Experience">
+                            <ul>
+                                <li><span>Web Development Intern</span> <br>Built and styled web pages using HTML, CSS, and JavaScript for a real-world project</li>
+                                <li><span>UI/UX Intern</span> <br>Worked on wireframes and prototypes for a mobile app interface using Figma</li>
+                                <li><span>Team Member at TNP Cell</span> <br>Managed student-company coordination and improved communication workflows</li>
+                                
+                            </ul>
+                         </div>
+
+                         <div class="tab-content" id="Education">
+                            <ul>
+                                <li><span>B.Tech in Electronics and Communication</span> <br>Netaji Subhas University of Technology (2021 -2025)</li>
+                                <li><span>Technical Electives</span> <br>Special focus on VLSI, Embedded Systems, and Web Technologies</li>
+                                <li><span>Projects</span> <br>Developed a weather app using React and API integration; VCO circuit design as final-year project</li>
+                                
+                            </ul>
+                         </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+
+    <!-- sevices -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+               <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I create responsive websites using HTML, CSS, JavaScript, and Bootstrap
+                     to deliver modern layouts that work flawlessly across all devices.</p>
+                <a href="#">Learn more</a>
+               </div>  
+
+               <div> 
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UX/UI Design</h2>
+                <p>I craft clean and responsive user interfaces with a strong focus on layout 
+                structure, accessibility, and seamless user journeys across all screen sizes.</p>
+                <a href="#">Learn more</a>
+               </div>  
+            </div>
+        </div>
+     </div>
+
+
+
+     <!-- portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" >
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-2.png" >
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-3.png" >
+                    <div class="layer">
+                        <h3>Online Shoping App</h3>
+                        <p>The app connects you to the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#"  class="btn">See more</a>
+
+        </div>
+    </div>
+
+    </div>
+
+    <!-- contact--->
+     <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me </h1>
+                    <p><i class="fa-solid fa-envelope"></i> neha825nv@gmial.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9595352951</p>
+                    <div class= "social-icon">
+                        <a href="https://www.facebook.com/shemii.verma"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/NehaVerma825"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/neha-verma-825nv/"><i class="fa-brands fa-linkedin"></i></i></a>
+                    </div>
+                    <a href="my_CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right"> 
+                    <form>
+                        <input type="text" name="name" placeholder="your name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @Neha made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+     </div>
+
+
+
+    
+      
+
+
+    
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
