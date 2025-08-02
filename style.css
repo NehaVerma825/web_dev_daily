@@ -1,11 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     font-family: "poppins" , sans-serif;
+=======
+    font-family: 'poppins' , sans-serif;
+>>>>>>> 2333c7e3600221c57d607dc8f19465e47568b2a9
     box-sizing: border-box;
 }
 
 body{
+<<<<<<< HEAD
     background-color: #1D3752;
     /* background-color: #214D71; */
     color: #fff;
@@ -377,4 +382,117 @@ form .btn2{
    #header{
             
    }
+=======
+    background-color: #222;
+
+}
+
+.card{
+    max-width: 350px;
+    max-width: 470px; 
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+
+    color: #fff;
+    margin: 30px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px; 
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+
+}
+
+.search button img{
+    width: 16px;
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+
+}
+
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;  
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px; 
+}
+
+.col{
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 20px;
+    margin-top: -6px;
+
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+
+#datetime {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+>>>>>>> 2333c7e3600221c57d607dc8f19465e47568b2a9
 }
